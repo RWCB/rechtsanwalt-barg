@@ -1,3 +1,7 @@
-p {
-  color: navy;
+body {
+  background: #002E5D;
+  font: 14px Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  line-height: 1.4;
+  color: #414142;
 }
