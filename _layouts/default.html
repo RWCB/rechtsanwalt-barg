@@ -17,13 +17,19 @@
   <body>
    
     <div class="top-menu">
-      {% include top-menu.md | markdownify %}
+      {% capture topmenu %}
+          {% include top-menu.md %}
+        {% endcapture %}
+        {{ topmenu | markdownify }}
     </div>
     
     <div class="wrapper">
       
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
-              {% include header.md | markdownify %}
+        {% capture header %}
+          {% include header.md %}
+        {% endcapture %}
+        {{ header | markdownify }}
         <!--<h1>{{ site.title | default: site.github.repository_name }}</h1>
         {% if site.description or site.github.project_tagline %}
           <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -39,7 +45,10 @@
     <!--<div w3-include-html="../_includes/footer.html"></div> -->
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     <footer>
-       {% include footer.md | markdownify %}
+       {% capture footer %}
+          {% include footer.md %}
+        {% endcapture %}
+        {{ footer | markdownify }}
     </footer>
 
     {% if site.google_analytics %}
