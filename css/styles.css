@@ -5,3 +5,12 @@ body {
   line-height: 1.4;
   color: #414142;
 }
+
+p {
+  backgroud: white; 
+}
+
+h1 {
+  -webkit-align-content: center;
+  align-content: center;
+}
