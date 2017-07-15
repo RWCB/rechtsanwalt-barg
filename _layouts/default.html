@@ -20,7 +20,7 @@
         {% capture topmenu %}
           {% include top-menu.md %}
         {% endcapture %}
-        {{ topmenu | markdownify }}
+        {{ topmenu | strip_newlines | markdownify }}
     </div>
     
     <div class="wrapper">
