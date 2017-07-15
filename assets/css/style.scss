@@ -12,7 +12,17 @@ body {
 }
 
 .top-menu {
+  width:640px;
   color: #ccc;
   list-style-type: none;
   display: inline;
+  align-content: flex-end;
+}
+
+.wrapper {
+  width:640px;
+  margin:0 auto;
+  background:white;
+  border-radius: 8px;
+  box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
 }
