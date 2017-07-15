@@ -18,9 +18,9 @@
    
     <div class="top-menu">
         {% capture topmenu %}
-          {% include top-menu.md %}
+          {% include top-menu.markdown %}
         {% endcapture %}
-        {{ topmenu | strip_newlines | markdownify }}
+        {{ topmenu | markdownify }}
     </div>
     
     <div class="wrapper">
