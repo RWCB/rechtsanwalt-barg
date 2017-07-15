@@ -14,9 +14,13 @@ body {
 .top-menu {
   width:640px;
   color: #ccc;
+  display: block;
+  align-content: flex-end;
+}
+
+.top-menu > ul {
   list-style-type: none;
   display: inline;
-  align-content: flex-end;
 }
 
 .wrapper {
