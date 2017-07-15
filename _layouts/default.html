@@ -17,8 +17,10 @@
   <body>
    
     <div class="top-menu">
-        {% include top-menu.md %}
-        
+        {% capture topmenu %}
+          {% include top-menu.md %}
+        {% endcapture %}
+        {{ topmenu }}
     </div>
     
     <div class="wrapper">
