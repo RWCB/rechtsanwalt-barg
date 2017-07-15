@@ -23,10 +23,11 @@
     <div class="wrapper">
       
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+              {% include header.md %}
+        <!--<h1>{{ site.title | default: site.github.repository_name }}</h1>
         {% if site.description or site.github.project_tagline %}
           <p>{{ site.description | default: site.github.project_tagline }}</p>
-        {% endif %}
+        {% endif %}-->
       </header>
       <section>
 
@@ -37,6 +38,9 @@
     
     <!--<div w3-include-html="../_includes/footer.html"></div> -->
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <footer>
+       {% include footer.md %}
+    </footer>
 
     {% if site.google_analytics %}
       <script type="text/javascript">
