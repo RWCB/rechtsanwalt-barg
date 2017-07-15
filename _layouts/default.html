@@ -17,9 +17,7 @@
   <body>
    
     <div class="top-menu">
-        {% capture topmenu %}
-          {% include top-menu.markdown %}
-        {% endcapture %}
+        {% capture topmenu %}{% include top-menu.markdown %}{% endcapture %}
         {{ topmenu | markdownify }}
     </div>
     
