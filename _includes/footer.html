@@ -1,4 +1,6 @@
-<p multilinks-noscroll="true">Project maintained by <a href="https://github.com/maybeec" multilinks-noscroll="true">maybeecA</a></p>
-    
-<p multilinks-noscroll="true">Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist" multilinks-noscroll="true">orderedlist</a></p>
-   
+<footer>
+    {% if site.github.is_project_page %}
+      <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+    {% endif %}
+      <p>Hosted on GitHub Pages &mdash;</p>
+</footer>
