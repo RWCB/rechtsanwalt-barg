@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+html {
+  color: #414142;
+}
+
 body {
   background: #002E5D;
   font: 14px Helvetica, Arial, sans-serif;
@@ -48,7 +52,7 @@ footer {
 
 footer p {
   text-align: center;
-  font-size: 10px;
+  font: 10px Helvetica, Arial, sans-serif;
   color: white;
 }
 
