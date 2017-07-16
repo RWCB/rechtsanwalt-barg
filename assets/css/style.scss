@@ -17,7 +17,7 @@ body {
 
 a, a:link, a:visited, a:hover, a:active, a.activeLink {
   color: #414142;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 strong {
@@ -51,12 +51,14 @@ topmenu > ul > li {
 topmenu > ul > li > a:link, 
 topmenu > ul > li > a:visited {
   color: #ccc;
+  text-decoration: none;
 }
 
 topmenu > ul > li > a:hover, 
 topmenu > ul > li > a:active, 
 topmenu > ul > li > a.activeLink {
   color: white;
+  text-decoration: none;
 }
 
 img.logo {
@@ -109,12 +111,14 @@ menu > ul > li {
 menu > ul > li > a:link, 
 menu > ul > li > a:visited {
   color: white;
+  text-decoration: none;
 }
 
 menu > ul > li > a:hover, 
 menu > ul > li > a:active, 
 menu > ul > li > a.activeLink {
   color: #002E5D;
+  text-decoration: none;
 }
 
 section {
@@ -157,7 +161,6 @@ footer > ul > li > a:visited,
 footer > ul > li > a:hover, 
 footer > ul > li > a:active, 
 footer > ul > li > a.activeLink {
-  text-decoration: underline;
   color: white;
 }
 
