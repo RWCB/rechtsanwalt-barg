@@ -29,10 +29,8 @@
       {% capture imageUrl %}{{page.url | prepend: '/assets/images' | replace:'.html','.jpg'}}{% endcapture %}
       {% assign exists = false %}
       {% for image in site.static_files %}
-      <p>{{image.path}} == {{imageUrl}}</p>
         {% if image.path == imageUrl %}
           {% assign exists = true %}
-      <p>assign true</p>
         {% endif %}
       {% endfor %}
       
