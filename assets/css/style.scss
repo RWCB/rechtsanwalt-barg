@@ -39,7 +39,13 @@ body {
 footer > ul > li {
   list-style-type: none;
   display: inline;
-  content: " | ";
 }
 
+@include addSeparator('li', '|', 1em);
 
+@mixin addSeparator($element, $separator, $padding) {
+    #{$element+'+'+$element}:before {
+        content: $separator;
+        padding: 0 $padding;
+    }
+}
