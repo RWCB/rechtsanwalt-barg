@@ -18,10 +18,10 @@
   </head>
   <body> 
    
-    <div class="topmenu">
+    <topmenu>
         {% capture topmenu %}{% include top-menu.md %}{% endcapture %}
         {{ topmenu | markdownify }}
-    </div>
+    </topmenu>
     
     <div class="wrapper">
       
@@ -37,10 +37,10 @@
         {% endif %}-->
       </header>
       
-      <div class="menu">
+      <menu>
         {% capture menu %}{% include menu.md %}{% endcapture %}
         {{ menu | markdownify }}
-      </div>
+      </menu>
       
       <section>
       {{ content }}
