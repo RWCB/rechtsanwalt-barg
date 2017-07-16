@@ -43,28 +43,28 @@ header > h2 {
   font: inherit;
 }
 
-.topmenu {
+topmenu {
   width: 860px;
   color: #ccc;
   margin: 0 auto;
 }
 
-.topmenu > ul {
+topmenu > ul {
   margin: 0 0 2px;
   text-align: right;
 }
 
-.topmenu > ul > li {
+topmenu > ul > li {
   list-style-type: none;
   display: inline;
   margin-right: 10px;
 }
 
-.topmenu > ul > li > a:hover, a:active, a.activeLink {
+topmenu > ul > li > a:hover, a:active, a.activeLink {
   color: white;
 }
 
-.menu {
+menu {
   background: #6D6F71;
   color: white;
   text-align: center;
@@ -74,22 +74,22 @@ header > h2 {
   justify-content: center;
 }
 
-.menu > ul {
+menu > ul {
   padding: 0;
 }
 
-.menu > ul > li {
+menu > ul > li {
   list-style-type: none;
   display: inline;
   margin-right: 20px;
   vertical-align: middle;
 }
 
-.menu > ul > li > a:link, a:visited {
+menu > ul > li > a:link, a:visited {
   color: white;
 }
 
-.menu > ul > li > a:hover, a:active, a.activeLink {
+menu > ul > li > a:hover, a:active, a.activeLink {
   color: #002E5D;
 }
 
