@@ -36,9 +36,18 @@ body {
   box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
 }
 
+section {
+  border-radius: 0 0 0 0; 
+}
+
 footer {
   padding: 2px;
   background: #6D6F71;
+  border-radius: 0 0 8px 8px;
+}
+
+footer > ul {
+  margin: 0px;
 }
 
 footer > ul > li {
