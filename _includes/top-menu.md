@@ -1,2 +1,2 @@
-* [Kontakt]({{ site.baseurl }}{% link _includes/contact.html %})
+* [Kontakt]({{ site.baseurl }}{% link contact.html %})
 * [Impressum]({{ site.baseurl }}{% link impressum.md %})
