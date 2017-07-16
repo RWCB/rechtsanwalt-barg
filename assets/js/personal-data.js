@@ -7,5 +7,6 @@ $(document).ready(function() {
         $("section").css("color", "white");
         $("section").css("background-image", "url('assets/images/portrait.jpg')");
         $("section").css("background-position", "center right");
+        $("section").css("background", "no-repeat");
     }
 });
