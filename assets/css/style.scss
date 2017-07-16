@@ -129,7 +129,6 @@ footer > ul {
 footer > ul > li {
   list-style-type: none;
   display: inline;
-  margin: 0 10px;
 }
 
 footer > ul > li > a {
@@ -139,4 +138,5 @@ footer > ul > li > a {
 
 footer > ul > li + li:before {
   content: " | ";
+  margin: 0 10px;
 }
