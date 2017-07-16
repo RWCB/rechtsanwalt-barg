@@ -34,6 +34,7 @@ body {
   background:white;
   border-radius: 8px;
   box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
+  border-radius: 8px 8px 0 0;
 }
 
 section {
@@ -41,9 +42,8 @@ section {
 }
 
 footer {
-  padding: 2px;
+  padding: 2px 0 0 0;
   background: #6D6F71;
-  border-radius: 0 0 8px 8px;
 }
 
 footer > ul {
