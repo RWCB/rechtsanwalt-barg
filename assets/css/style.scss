@@ -37,7 +37,7 @@ body {
 }
 
 footer > ul {
-  margin: 0 0 0 2px;
+  margin: 2px 0 0 0;
 }
 
 footer > ul > li {
@@ -45,6 +45,6 @@ footer > ul > li {
   display: inline;
 }
 
-footer > li + li:before {
+footer > li+li:before {
     content: " | ";
 }
