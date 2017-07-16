@@ -2,6 +2,6 @@
 (function() {
     var currentPage = $("body").data("current-page");
     if (currentPage) {
-        $("a[href$='" + currentPage + "']").addClass("active");
+        $("a[href$='" + currentPage + ".md']").addClass("active");
     }
 })();
