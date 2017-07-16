@@ -1,6 +1,5 @@
 theme: jekyll-theme-modernist
 title: Rechtsanwalt Barg
-id: index
 
 kramdown: 
   syntax_highlighter_opts:
