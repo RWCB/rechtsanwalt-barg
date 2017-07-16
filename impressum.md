@@ -11,7 +11,7 @@ Gottorfstraße 18
 
 Telefon (04621) 9391 - 0
 Telefax (04621) 9391 - 26
-www.rak-sh.de
+[www.rak-sh.de](www.rak-sh.de)
 
 **Für Rechtsanwälte gelten Gebühren - und Berufsordnungen:**
 
@@ -20,9 +20,9 @@ BORA - Berufsordnung der Rechtsanwälte
 FAO - Fachanwaltsordnung
 RVG – Rechtsanwaltsvergütungsgesetz
 
-Die Gesetzestexte können Sie über die Homepage der Bundesrechtsanwaltskammer (BRAK) in der Rubrik "Berufsrecht" abrufen. Die Internetadresse der BRAK lautet www.brak.de
+Die Gesetzestexte können Sie über die Homepage der Bundesrechtsanwaltskammer (BRAK) in der Rubrik "Berufsrecht" abrufen. Die Internetadresse der BRAK lautet [www.brak.de](www.brak.de)
 
-**Der Direktlink lautet:** www.brak.de/fuer-anwaelte/berufsrecht/
+**Der Direktlink lautet:** [www.brak.de/fuer-anwaelte/berufsrecht/](www.brak.de/fuer-anwaelte/berufsrecht/)
 
 **Berufshaftpflichtversicherung:** ERGO Versicherung AG, Victoriaplatz 1, 40477 Düsseldorf
 
