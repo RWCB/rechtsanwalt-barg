@@ -88,7 +88,7 @@ footer {
   font: 10px Helvetica, Arial, sans-serif;
   color: white;
   height: 26px;
-  vertical-align: baseline;
+  vertical-align: middle;
 }
 
 footer > ul {
@@ -100,6 +100,7 @@ footer > ul > li {
   list-style-type: none;
   display: inline;
   margin: 0 auto;
+  width: 100%;
 }
 
 footer > ul > li + li:before {
