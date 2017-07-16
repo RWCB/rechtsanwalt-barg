@@ -40,15 +40,10 @@
       </menu>
       
       <section>
-      <!--{% if page.url == "/personal-data.html" %}
-        <table>
-          <tr><td>{{ content }}</td>/tr>
-          <tr><td><img class="portrait" src="{{ '/assets/images/portrait.jpg' | relative_url }}" /></td></tr>
-        </table>
-      {% else %}-->
+      {% if page.url == "/personal-data.html" %}
         <img class="portrait" src="{{ '/assets/images/portrait.jpg' | relative_url }}" />
-        {{ content }}
-      <!--{% endif %}-->
+      {% endif %}
+      {{ content }} 
       </section>
       
       <footer>
