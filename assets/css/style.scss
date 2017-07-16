@@ -17,7 +17,6 @@ body {
 
 a, a:link, a:visited, a:hover, :active, a.activeLink {
   color: #414142;
-  text-decoration: none;
 }
 
 .wrapper {
@@ -145,7 +144,12 @@ footer > ul > li {
   display: inline;
 }
 
-footer > ul > li > a {
+footer > ul > li > a,
+footer > ul > li > a:link, 
+footer > ul > li > a:visited,
+footer > ul > li > a:hover, 
+footer > ul > li > a:active, 
+footer > ul > li > a.activeLink {
   text-decoration: underline;
   color: white;
 }
