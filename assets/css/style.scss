@@ -53,6 +53,10 @@ header > h2 {
   vertical-align: baseline;
 }
 
+.menu > ul {
+  vertical-align: middle;
+}
+
 .menu > ul > li {
   list-style-type: none;
   display: inline;
@@ -88,19 +92,16 @@ footer {
   font: 10px Helvetica, Arial, sans-serif;
   color: white;
   height: 26px;
-  vertical-align: middle;
 }
 
 footer > ul {
   margin: 0px;
-  width: 100%;
+  vertical-align: middle;
 }
 
 footer > ul > li {
   list-style-type: none;
   display: inline;
-  margin: 0 auto;
-  width: 100%;
 }
 
 footer > ul > li + li:before {
