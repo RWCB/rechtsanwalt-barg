@@ -15,7 +15,8 @@ body {
   padding: 60px 0;
 }
 
-a {
+a, a:link, a:visited, a:hover, :active, a.activeLink {
+  color: #414142;
   text-decoration: none;
 }
 
@@ -41,6 +42,11 @@ topmenu > ul > li {
   list-style-type: none;
   display: inline;
   margin-right: 10px;
+}
+
+topmenu > ul > li > a:link, 
+topmenu > ul > li > a:visited {
+  color: #ccc;
 }
 
 topmenu > ul > li > a:hover, 
@@ -94,7 +100,8 @@ menu > ul > li {
   vertical-align: middle;
 }
 
-menu > ul > li > a:link, menu > ul > li > a:visited {
+menu > ul > li > a:link, 
+menu > ul > li > a:visited {
   color: white;
 }
 
