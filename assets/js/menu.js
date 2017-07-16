@@ -1,5 +1,6 @@
 // highlight current page
 $('a').click(function() {
+    console.log("Test");
     var currentUrl = window.location.href;
     console.log(currentUrl);
     if(currentUrl.endsWith('/')) {
