@@ -63,6 +63,14 @@ header > h2 {
   vertical-align: middle;
 }
 
+.menu > ul > li > a:link, a:visited {
+  color: white;
+}
+
+.menu > ul > li > a:active, a:hover {
+  color: #002E5D;
+}
+
 .wrapper {
   width: 860px;
   margin: 0 auto;
