@@ -15,6 +15,10 @@ body {
   padding: 60px 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 img.logo {
   height: 90px;
   position: absolute;
@@ -123,7 +127,6 @@ footer > ul > li {
   display: inline;
   vertical-align: middle;
 }
-
 
 footer > ul > li > a {
   text-decoration: underline;
