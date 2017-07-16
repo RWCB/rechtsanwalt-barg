@@ -60,6 +60,10 @@ header > h2 {
   margin-right: 10px;
 }
 
+.top-menu > ul > li > a:hover, a:active, a.activeLink {
+  color: white;
+}
+
 .menu {
   background: #6D6F71;
   color: white;
