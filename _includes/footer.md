@@ -3,4 +3,4 @@
 * Mobil: 0176 613 607 39
 * Westpreußenring 62
 * 23569 Lübeck
-* info@rechtsanwalt-barg.de
+* [info@rechtsanwalt-barg.de](mailto:info@rechtsanwalt-barg.de)
