@@ -27,7 +27,7 @@
       </topmenu>
       
       <img src="{{ '/assets/images/home.jpg' | relative_url }}"/>
-      <img class="logo" src="{{ '/assets/images/logo.png' | relative_url }}">
+      <img class="logo" src="{{ '/assets/images/logo.png' | relative_url }}"/>
       
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
         {% capture header %}{% include header.md %}{% endcapture %}
@@ -41,6 +41,9 @@
       
       <section>
       {{ content }}
+      {% if page.url == "/personal-data.html" %}
+         <img class='portrait' src='assets/images/portrait.png' />
+      {% endif %}
       </section>
       
       <footer>
