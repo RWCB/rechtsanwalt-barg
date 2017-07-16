@@ -5,8 +5,8 @@ $(document).ready(function() {
     if(currentUrl.endsWith(personalViewPage)) {
         $("section").css("background", "#555");
         $("section").css("color", "white");
-        $("section:after").css("content", "url('assets/images/portrait.jpg')");
-        //$("section:after").css("background-position", "center right");
-        //$("section:after").css("background", "no-repeat");
+        $("section").append("<img class='portrait' src='assets/images/portrait.png' />");
+        $("img[class='portrait']").css("position", "absolute");
+        $("img[class='portrait']").css("display", "block");
     }
 });
