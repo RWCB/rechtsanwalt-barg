@@ -27,15 +27,14 @@
       </topmenu>
       
       {% capture imageUrl %}{{page.url | prepend: '/assets/images/' | replace:'.html','.jpg'}}{% endcapture %}
-      {% assign exists = "false" %}
+      {% assign exists = false %}
       {% for image in site.static_files %}
-      <p>{{ image.path }}</p>
         {% if image.path == imageUrl %}
-          {% assign exists = "true" %}
+          {% assign exists = true %}
         {% endif %}
       {% endfor %}
       
-      {% if exists == "true" %}
+      {% if exists == true %}
         <img src="{{ imageUrl | relative_url }}"/>
       {% else %}
         <img src="{{ '/assets/images/home.jpg' | relative_url }}"/>
