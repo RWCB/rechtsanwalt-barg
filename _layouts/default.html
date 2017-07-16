@@ -29,6 +29,7 @@
       {% capture imageUrl %}{{page.url | prepend: '/assets/images/' | replace:'.html','.jpg'}}{% endcapture %}
       {% assign exists = false %}
       {% for image in site.static_files %}
+      <p>{{ image.path }}</p>
         {% if image.path == imageUrl %}
           {% assign exists = true %}
         {% endif %}
@@ -37,7 +38,8 @@
       {% if exists %}
         <img src="{{ imageUrl | relative_url }}"/>
       {% else %}
-        <img src="{{ '/assets/images/home.jpg' | relative_url }}"/>
+        <img src="{{ imageUrl | relative_url }}"/>
+        <!--<img src="{{ '/assets/images/home.jpg' | relative_url }}"/>-->
       {% endif %}
       <img class="logo" src="{{ '/assets/images/logo.png' | relative_url }}"/>
       
