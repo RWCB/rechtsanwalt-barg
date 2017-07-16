@@ -31,6 +31,17 @@ body {
   margin-right: 10px;
 }
 
+.menu {
+  background: #6D6F71;
+  color: white;
+  text-align: center;
+}
+
+.menu > ul > li {
+  list-style-type: none;
+  display: inline;
+}
+
 .wrapper {
   width: 860px;
   margin:0 auto;
