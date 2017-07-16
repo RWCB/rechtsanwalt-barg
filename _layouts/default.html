@@ -17,13 +17,13 @@
     <![endif]-->
   </head>
   <body> 
-   
-    <topmenu>
-        {% capture topmenu %}{% include top-menu.md %}{% endcapture %}
-        {{ topmenu | markdownify }}
-    </topmenu>
     
     <div class="wrapper">
+      
+      <topmenu>
+        {% capture topmenu %}{% include top-menu.md %}{% endcapture %}
+        {{ topmenu | markdownify }}
+      </topmenu>
       
       <img src="{{ '/assets/images/home.jpg' | relative_url }}"/>
       <img class="logo" src="{{ '/assets/images/logo.png' | relative_url }}">
