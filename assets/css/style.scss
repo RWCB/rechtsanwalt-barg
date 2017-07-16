@@ -41,11 +41,6 @@ footer > ul > li {
   display: inline;
 }
 
-@include addSeparator('li', '|', 1em);
-
-@mixin addSeparator($element, $separator, $padding) {
-    #{$element+'+'+$element}:before {
-        content: $separator;
-        padding: 0 $padding;
-    }
+footer > ul > li + li:before {
+    content: " | ";
 }
