@@ -35,3 +35,16 @@ body {
   border-radius: 8px;
   box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
 }
+
+footer > ul {
+  margin: 0 0 0 2px;
+}
+
+footer > ul > li {
+  list-style-type: none;
+  display: inline;
+}
+
+footer > li + li:before {
+    content: " | ";
+}
