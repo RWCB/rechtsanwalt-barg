@@ -1,3 +1,3 @@
 # Website von rechtsanwalt-barg.de
 
-https://maybeec.github.io/rechtsanwalt-barg/
+https://rwcb.github.io/rechtsanwalt-barg/
