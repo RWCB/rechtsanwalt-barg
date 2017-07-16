@@ -1,8 +1,18 @@
 <form method="POST" action="https://www.formingo.co/submit/maltebrunnlieb@web.de">
-      
-    <label for="vname">Vollständiger Name: <input type="text" name="full_name"> </label>
-    <label for="vname">Email: <input type="email" name="__replyto"> </label>
-    <label for="Nachricht">Nachricht: <input type="text" name="message"> </label>
 
-    <input type="submit" value="Contact">
+    <table>
+        <tr>
+            <td><label for="name">Vollständiger Name:</label></td>
+            <td><input id="name" type="text" name="full_name" required autofocus></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input id="email" type="email" name="__replyto" required></td>
+        </tr>
+        <tr>
+            <td><label for="message">Nachricht:</label></td>
+            <td><input type="text" name="message" required></td>
+        </tr>
+    </table>
+    <input type="submit" value="Absenden">
 </form>
