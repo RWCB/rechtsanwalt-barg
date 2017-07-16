@@ -45,14 +45,15 @@
       <section>
       {{ content }}
       </section>
+      
+      <footer>
+       {% capture footer %}{% include footer.md %}{% endcapture %}
+        {{ footer | markdownify }}
+      </footer>
     </div>
     
     <!--<div w3-include-html="../_includes/footer.html"></div> -->
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    <footer>
-       {% capture footer %}{% include footer.md %}{% endcapture %}
-        {{ footer | markdownify }}
-    </footer>
 
     <!--<div class="github-disclaimer">
       {% if site.github.is_project_page %}
