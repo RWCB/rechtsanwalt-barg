@@ -5,5 +5,7 @@ $(document).ready(function() {
     if(currentUrl.endsWith(personalViewPage)) {
         $("section").css("background", "#555");
         $("section").css("color", "white");
+        $("section").css("background-image", "url('../images/portrait.jpg')");
+        $("section").css("background-position", "center right");
     }
 });
