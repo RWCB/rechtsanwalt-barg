@@ -10,7 +10,7 @@ html {
 body {
   font: 14px Helvetica, Arial, sans-serif;
   font-weight: lighter;
-//  line-height: 1.4;
+  line-height: 1.4;
   color: #414142;
   padding: 60px 0;
 }
@@ -127,6 +127,7 @@ footer > ul > li {
 
 footer > ul > li > a {
   text-decoration: underline;
+  color: white;
 }
 
 footer > ul > li + li:before {
