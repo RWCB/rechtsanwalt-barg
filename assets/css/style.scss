@@ -19,6 +19,30 @@ a {
   text-decoration: none;
 }
 
+.wrapper {
+  width: 860px;
+  margin: 0 auto;
+  background: white;
+}
+
+topmenu {
+  background: #002E5D;
+  color: #ccc;
+  margin: 0 auto;
+}
+
+topmenu > ul {
+  background: inherit;
+  margin: 0 0 2px;
+  text-align: right;
+}
+
+topmenu > ul > li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+}
+
 img.logo {
   height: 90px;
   position: absolute;
@@ -41,24 +65,6 @@ header > h1 {
 
 header > h2 {
   font: inherit;
-}
-
-topmenu {
-  background: #002E5D;
-  color: #ccc;
-  margin: 0 auto;
-}
-
-topmenu > ul {
-  background: inherit;
-  margin: 0 0 2px;
-  text-align: right;
-}
-
-topmenu > ul > li {
-  list-style-type: none;
-  display: inline;
-  margin-right: 10px;
 }
 
 topmenu > ul > li > a:hover, a:active, a.activeLink {
@@ -92,14 +98,6 @@ menu > ul > li > a:link, a:visited {
 
 menu > ul > li > a:hover, a:active, a.activeLink {
   color: #002E5D;
-}
-
-.wrapper {
-  width: 860px;
-  margin: 0 auto;
-  background: white;
-  box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
-  border-radius: 0 0 0 0;
 }
 
 section {
