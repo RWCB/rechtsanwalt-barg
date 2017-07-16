@@ -43,6 +43,12 @@ topmenu > ul > li {
   margin-right: 10px;
 }
 
+topmenu > ul > li > a:hover, 
+topmenu > ul > li > a:active, 
+topmenu > ul > li > a.activeLink {
+  color: white;
+}
+
 img.logo {
   height: 90px;
   position: absolute;
@@ -67,10 +73,6 @@ header > h2 {
   font: inherit;
 }
 
-topmenu > ul > li > a:hover, a:active, a.activeLink {
-  color: white;
-}
-
 menu {
   background: #6D6F71;
   color: white;
@@ -92,11 +94,13 @@ menu > ul > li {
   vertical-align: middle;
 }
 
-menu > ul > li > a:link, a:visited {
+menu > ul > li > a:link, menu > ul > li > a:visited {
   color: white;
 }
 
-menu > ul > li > a:hover, a:active, a.activeLink {
+menu > ul > li > a:hover, 
+menu > ul > li > a:active, 
+menu > ul > li > a.activeLink {
   color: #002E5D;
 }
 
