@@ -39,7 +39,7 @@
       {% else %}
         <img src="{{ '/assets/images/home.jpg' | relative_url }}"/>
       {% endif %}
-      <img class="logo" src="{{ '/assets/images/logo.png' | relative_url }}"/>
+      <a href="/"><img class="logo" src="{{ '/assets/images/logo.png' | relative_url }}"/></a>
       
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
         {% capture header %}{% include header.md %}{% endcapture %}
