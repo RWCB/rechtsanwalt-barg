@@ -43,24 +43,24 @@ header > h2 {
   font: inherit;
 }
 
-.top-menu {
+.topmenu {
   width: 860px;
   color: #ccc;
   margin: 0 auto;
 }
 
-.top-menu > ul {
+.topmenu > ul {
   margin: 0 0 2px;
   text-align: right;
 }
 
-.top-menu > ul > li {
+.topmenu > ul > li {
   list-style-type: none;
   display: inline;
   margin-right: 10px;
 }
 
-.top-menu > ul > li > a:hover, a:active, a.activeLink {
+.topmenu > ul > li > a:hover, a:active, a.activeLink {
   color: white;
 }
 
