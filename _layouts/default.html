@@ -31,6 +31,7 @@
       {% for image in site.static_files %}
         {% if image.path == imageUrl %}
           {% assign exists = true %}
+      <p>assign true</p>
         {% endif %}
       {% endfor %}
       
