@@ -1,5 +1,5 @@
 // highlight current page
-(function() {
+$('a').click(function() {
     var currentUrl = window.location.href;
     if(currentUrl.endsWith('/')) {
         $("a[href$='index.html']").addClass("active");
@@ -9,4 +9,4 @@
         $("a[href$='" + currentPage + "']").addClass("active");
         $("a:not([href$='" + currentPage + "'])").removeClass("active");
     }
-})();
+}).triggerHandler('click');
