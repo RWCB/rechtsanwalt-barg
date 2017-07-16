@@ -5,13 +5,13 @@
     var currentUrl = window.location.href;
     console.log(currentUrl);
     if(currentUrl.endsWith('/')) {
-        $("a[href$='index.html']").addClass("active");
-        $("a:not([href$='index.html'])").removeClass("active");
+        $("a[href$='index.html']").addClass("activeLink");
+        $("a:not([href$='index.html'])").removeClass("activeLink");
     } else {
         var currentPage = currentUrl.substr(currentUrl.lastIndexOf('/') + 1);
         console.log(currentPage);
-        $("a[href$='" + currentPage + "']").addClass("active");
-        $("a:not([href$='" + currentPage + "'])").removeClass("active");
+        $("a[href$='" + currentPage + "']").addClass("activeLink");
+        $("a:not([href$='" + currentPage + "'])").removeClass("activeLink");
     }
 })();
     //.triggerHandler('click');
