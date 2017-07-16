@@ -93,14 +93,15 @@ footer {
 
 footer > ul {
   margin: 0px;
+  width: 100%;
 }
 
 footer > ul > li {
   list-style-type: none;
   display: inline;
+  margin: 0 auto;
 }
 
 footer > ul > li + li:before {
-  margin: 0 auto;
   content: "|";
 }
