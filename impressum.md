@@ -26,9 +26,9 @@ Die Gesetzestexte können Sie über die Homepage der Bundesrechtsanwaltskammer (
 
 **Berufshaftpflichtversicherung:**
 
-Bis zum 15.01.2018 ERGO Versicherung AG, Victoriaplatz 1, 40477 Düsseldorf
+Bis zum 15.01.2018 - 12 Uhr die **ERGO Versicherung AG, Victoriaplatz 1, 40477 Düsseldorf**
 
-Ab dem 15.01.2018 LVM Landwirtschaftlicher Versicherungsverein Münster a.G., Kolde-Ring 21, 48126 Münster
+Ab dem 15.01.2018 - 12 Uhr die **LVM Landwirtschaftlicher Versicherungsverein Münster a.G., Kolde-Ring 21, 48126 Münster**
 
 Der räumliche Geltungsbereich des Versicherungsschutzes umfasst Tätigkeiten in Europa. Rechtsanwältinnen und Rechtsanwälte sind aufgrund der Bundesrechtsanwaltsordnung verpflichtet, eine Berufshaftpflichtversicherung mit einer Mindestversicherungssumme von 250.000,00 € zu unterhalten. Einzelheiten ergeben sich aus § 51 BRAO.
 
