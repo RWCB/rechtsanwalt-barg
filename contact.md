@@ -1,1 +1,1 @@
-[//]: # (Dummy file. See _includes/contact.html to edit the contact form)
+Telefon: 0451 / 39 777 60
