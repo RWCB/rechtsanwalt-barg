@@ -32,8 +32,7 @@ Ab dem 15.01.2018 - 12 Uhr die **LVM Landwirtschaftlicher Versicherungsverein M�
 
 Der räumliche Geltungsbereich des Versicherungsschutzes umfasst Tätigkeiten in Europa. Rechtsanwältinnen und Rechtsanwälte sind aufgrund der Bundesrechtsanwaltsordnung verpflichtet, eine Berufshaftpflichtversicherung mit einer Mindestversicherungssumme von 250.000,00 € zu unterhalten. Einzelheiten ergeben sich aus § 51 BRAO.
 
-**Datenschutzhinweis:**
-
+**Datenschutzhinweise:**
 1. Name und Kontaktdaten des für die Verarbeitung Verantwortlichen
 Diese Datenschutzhinweise gelten für die Datenverarbeitung durch: Rechtsanwalt Roland Barg
 Verantwortlicher:
